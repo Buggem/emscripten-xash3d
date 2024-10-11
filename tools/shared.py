@@ -286,10 +286,7 @@ try:
   SPIDERMONKEY_ENGINE = fix_js_engine(SPIDERMONKEY_ENGINE, listify(SPIDERMONKEY_ENGINE))
 except:
   pass
-try:
-  NODE_JS = fix_js_engine(NODE_JS, listify(NODE_JS))
-except:
-  pass
+NODE_JS = fix_js_engine(NODE_JS, listify(NODE_JS))
 try:
   V8_ENGINE = fix_js_engine(V8_ENGINE, listify(V8_ENGINE))
 except:
