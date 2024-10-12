@@ -295,7 +295,7 @@ try:
   V8_ENGINE = fix_js_engine(V8_ENGINE, listify(V8_ENGINE))
 except:
   pass
-
+print(JS_ENGINES)
 COMPILER_ENGINE = listify(COMPILER_ENGINE)
 JS_ENGINES = [listify(ENGINE) for ENGINE in JS_ENGINES]
 
